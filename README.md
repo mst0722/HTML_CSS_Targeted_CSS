@@ -6,6 +6,15 @@ Create a menu that will render a menu for the Little Lemon restaurant with the h
 Objectives
 Add styling to the CSS page with the help of different combinator selectors along with other CSS rules you have leared so far.
 
+While reviewing the code, note the following:
+
+For div elements that follow the h3 element, the child combinator is defined as div > h3
+
+For elements using the CSS class low that follow the label CSS class, the adjacent sibling combinator is defined as .label + .low
+
+For div elements that follow other div elements, the general sibling combinator is defined as div ~ div
+
+
 
 **Step 1:**  Add padding of 10px to the section class
 
